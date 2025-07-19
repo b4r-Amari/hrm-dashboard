@@ -277,9 +277,9 @@
     }
   }
   .link-logo {
-    @apply flex items-center gap-1.5 py-10 border-b border-light-100;
+    @apply flex items-center gap-1.5 py-2 border-b border-light-100;
     h1 {
-      @apply text-base md:text-2xl font-bold text-dark-100;
+      @apply text-base md:text-2xl font-bold text-shadow-dark-200;
     }
   }
   .nav-footer {
@@ -305,7 +305,7 @@
         @apply text-base md:text-2xl font-bold text-dark-100;
       }
       a {
-        @apply flex items-center gap-1.5 py-10;
+        @apply flex items-center gap-1.5 py-3;
       }
     }
   }
@@ -346,11 +346,11 @@
     }
   }
   .nav-items {
-    @apply flex flex-col px-6 h-full;
+    @apply flex flex-col px-4 h-full;
     .container {
       @apply flex flex-col justify-between h-full;
       nav {
-        @apply flex flex-col gap-3.5 pt-9;
+        @apply flex flex-col gap-2 pt-9;
       }
     }
   }
@@ -462,7 +462,7 @@
     @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7;
   }
   .nav-item {
-    @apply flex items-center text-xs md:text-lg font-normal cursor-pointer gap-2.5 py-[18px] px-3.5 rounded-lg text-dark-200 hover:bg-primary-100 hover:text-white;
+    @apply flex items-center text-xs md:text-lg font-normal cursor-pointer gap-2 py-[12px] px-3.5 rounded-lg text-dark-200 hover:bg-primary-100 hover:text-white;
   }
   .combo-box {
     @apply !p-3.5 !border w-full !border-light-400 !rounded-xl !text-base !text-dark-300 !font-normal;

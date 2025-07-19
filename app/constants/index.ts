@@ -16,8 +16,8 @@ export const sidebarItems = [
   {
     id: 4,
     icon: "/assets/icons/itinerary.svg",
-    label: "AI Trips",
-    href: "/trips",
+    label: "AI Coach",
+    href: "/coach",
   },
 ];
 
