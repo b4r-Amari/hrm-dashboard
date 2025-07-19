@@ -85,9 +85,9 @@ declare interface TripCardProps {
 
 declare interface StatsCard {
   headerTitle: string;
-  total: number;
-  lastMonthCount: number;
-  currentMonthCount: number;
+  total?: number;
+  avgHearRate?: number;
+  activeAthletes?: number;
 }
 
 declare interface TrendResult {
