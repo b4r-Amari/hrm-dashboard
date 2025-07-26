@@ -18,17 +18,14 @@ const Dashboard = () => {
       {/* This will be the User Overview Section (Total Users, Active Users, ) */}
       <section className="flex flex-col gap-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
-          {/* // @ts-ignore */}
           <StatsCard 
             headerTitle="Total Althletes"
             total={DashboardStats.totalAthletes}
           />
-          {/* // @ts-ignore */}
           <StatsCard 
             headerTitle="Average Heart Rate"
             avgHearRate={DashboardStats.avgHearRate}
           />
-          {/* // @ts-ignore */}
           <StatsCard 
             headerTitle="Current Active Atheletes"
             activeAthletes={DashboardStats.activeAthletes}

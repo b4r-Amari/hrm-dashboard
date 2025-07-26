@@ -68,3 +68,59 @@ export const formatKey = (key: keyof TripFormData) => {
     .replace(/([A-Z])/g, " $1")
     .replace(/^./, (str) => str.toUpperCase());
 };
+
+
+export interface Sport {
+  name: string;
+  [key: string]: any; 
+}
+
+export const mockSports: Sport[] = [
+  { name: "Soccer" },
+  { name: "Diski" },
+  { name: "Basketball" },
+  { name: "Tennis" },
+  { name: "Cricket" },
+  { name: "Rugby" },
+  { name: "Baseball" },
+  { name: "Golf" },
+  { name: "American Football" },
+  { name: "Ice Hockey" },
+  { name: "Boxing" },
+  { name: "Mixed Martial Arts" },
+  { name: "Motorsport" },
+  { name: "Formula 1" },
+  { name: "Esports" },
+  { name: "Swimming" },
+  { name: "Athletics" },
+  { name: "Wrestling" },
+  { name: "Badminton" },
+  { name: "Table Tennis" },
+  { name: "Volleyball" },
+  { name: "Beach Volleyball" },
+  { name: "Skateboarding" },
+  { name: "Surfing" },
+  { name: "Snowboarding" },
+  { name: "Skiing" },
+  { name: "Cycling" },
+  { name: "Darts" },
+  { name: "Snooker" },
+  { name: "Lacrosse" },
+  { name: "Handball" },
+  { name: "Netball" },
+  { name: "Fencing" },
+  { name: "Archery" },
+  { name: "Karate" },
+  { name: "Taekwondo" },
+  { name: "Judo" },
+  { name: "Rowing" },
+  { name: "Sailing" },
+  { name: "Canoeing" },
+  { name: "Gymnastics" },
+  { name: "Powerlifting" },
+  { name: "CrossFit" },
+  { name: "Climbing" },
+  { name: "Polo" },
+  { name: "Sepak Takraw" },
+  { name: "Kabaddi" }
+];

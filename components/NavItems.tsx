@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router";
 import { sidebarItems } from "~/constants";
 import { cn } from '~/lib/utils'
+import { ButtonComponent } from "@syncfusion/ej2-react-buttons";
 
 const NavItems = ({ handleClick }: { handleClick?: () => void }) => {
   // still temporary, later it will come from auth
@@ -41,9 +42,9 @@ const NavItems = ({ handleClick }: { handleClick?: () => void }) => {
             <p>{user?.email}</p>
           </article>
 
-          <button onClick={() => { console.log('logout')}} className="cursor-pointer">
+          <ButtonComponent onClick={() => { console.log('logout')}} className="cursor-pointer">
             <img src="/assets/icons/logout.svg" alt="logout" className="size-6" />Logout
-          </button>
+          </ButtonComponent>
         </footer>
       </div>
     </section>

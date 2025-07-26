@@ -129,7 +129,7 @@
     }
   }
 
-  .trip-form {
+  .athlete-form {
     @apply flex flex-col gap-6 py-6 bg-white border border-light-200 rounded-xl shadow-100;
     div {
       @apply w-full flex flex-col gap-2.5 px-6 relative;
@@ -437,8 +437,11 @@
   .p-16-semibold {
     @apply text-sm md:text-base font-semibold;
   }
+  .p-16-regular {
+    @apply text-[12px] md:text-[16px] leading-[12px] md:leading-[14px] font-normal;
+  }
   .button-class {
-    @apply !bg-primary-100 !px-4 !rounded-lg !flex !items-center !justify-center !gap-1.5 !shadow-none;
+    @apply !bg-primary-100 !px-4 !rounded-lg !flex !items-center !justify-center !gap-1.5 !shadow-none hover:!bg-blue-600 transition duration-600;
   }
   .button-class-secondary {
     @apply !bg-white !px-4 !rounded-lg !flex !items-center !justify-center !gap-1.5 !shadow-sm;
